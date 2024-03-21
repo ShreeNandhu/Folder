@@ -8,6 +8,11 @@ class ThreadA implements Runnable {
         }
         System.out.println("Exiting from Thread A...");
     }
+
+    @Override
+    public String toString() {
+        return "ThreadA []";
+    }
 }
 
 class ThreadB implements Runnable {
