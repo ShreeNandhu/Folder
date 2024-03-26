@@ -1,5 +1,4 @@
-import java.util.*;
-import java.lang.*;
+
 
 class ThreadA implements Runnable {
     public void run() {
